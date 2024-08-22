@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#admin-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#dropdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#login-form {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#admin-panel {
+    max-width: 600px;
+    margin: auto;
+}
+
+#new-menu-name, #new-menu-icon {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 10px 5px;
+}

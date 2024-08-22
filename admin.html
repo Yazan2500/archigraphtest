@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة القوائم</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>إدارة القوائم</h1>
+    </header>
+
+    <main>
+        <div id="login-form">
+            <h2>تسجيل الدخول</h2>
+            <input type="text" id="username" placeholder="اسم المستخدم">
+            <input type="password" id="password" placeholder="كلمة المرور">
+            <button id="login-button">دخول</button>
+        </div>
+
+        <div id="admin-panel" style="display:none;">
+            <h2>إضافة قائمة جديدة</h2>
+            <input type="text" id="new-menu-name" placeholder="اسم القائمة">
+            <input type="text" id="new-menu-icon" placeholder="رمز القائمة (Font Awesome)">
+            <button id="add-menu-button">إضافة قائمة</button>
+
+            <h2>القوائم الحالية</h2>
+            <div id="current-menus"></div>
+        </div>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>
