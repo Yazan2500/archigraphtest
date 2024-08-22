@@ -1,5 +1,5 @@
 const repo = 'Yazan2500/archigraphtest'; // ضع هنا اسم المستودع الخاص بك
-const token = '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'; // ضع هنا رمز GitHub الخاص بك
+const token = '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'; // ضع هنا رمز GitHub الخاص بك
 
 let dropdowns = [];
 
